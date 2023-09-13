@@ -6,9 +6,9 @@
 - Main Features: Search available flights, make/search reservations, print itinerary
 - Developed from initial settings, the demo video below shows the connection with the backend, demonstrating a level of service that can be used in reality.
 
-### 개발 인원 및 기간
+### Team Members and Development Period
 
-- Development Time Period : June 2021 ~ July 2021
+- Development Period: June 2021 ~ July 2021
 - Team Members
     - Backend: Seungwon Burm, Jungmin Lee, Jiwoo Park
     - Frontend: Sanghoon Lee, Sunjoo Oh, Kiwan Lee 
