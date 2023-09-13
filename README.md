@@ -2,21 +2,23 @@
 
 ## About Welcome2Air Project Back-end 
 
-- Motif of South Korea's No.1 Airline [Korean Air]'s website (https://www.koreanair.com/), a team project.
+- Clone of South Korea's No.1 Airline [Korean Air]'s website (https://www.koreanair.com/), a team project.
 - Main Features: Search available flights, make/search reservations, print itinerary
 - Developed from initial settings, the demo video below shows the connection with the backend, demonstrating a level of service that can be used in reality.
 
 ### 개발 인원 및 기간
 
-- Development Time Period : 2021/06/21 ~ 2021/07/01
+- Development Time Period : June 2021 ~ July 2021
 - Team Members
     - Backend: Seungwon Burm, Jungmin Lee, Jiwoo Park
     - Frontend: Sanghoon Lee, Sunjoo Oh, Kiwan Lee 
 
 ### Demo
 
-[
-](https://youtu.be/NGMBPFtARa4?si=FTfGvEMwvn594uz2)<br>
+
+
+https://github.com/seungwonburm/21-2nd-Welcome-2-Air-backend/assets/82273617/47077f83-aec8-4bf7-857e-cc3b8ba867ab
+
 
 
 
@@ -31,7 +33,7 @@
 ### 구현 기능
 
 #### Users App
-- `JWT`를 이용한 User정보 토큰발생
+- Create User Token using JWT
 - Kakao Social Login
 
 #### Flights App
@@ -39,10 +41,10 @@
 - Filter Search Results Feature
 
 #### Tickets App
-- User가 원하는 항공편을 선택하면, 해당 항공편에 대하여 탑승자(들) 정보 입력받은 후 예약-> uuid 를 이용한 ticketId 발부, 예약된 인원만큼 잔여좌석 차감
-- User의 '항공권 예약 내역' 에서 해당 User 계정에 예약된 항공권 조회
-- `pdfkit`을 통해 html을 pdf로 변환 후 `S3`,database에 저장 기능 구현
-- 해당 Passenger에게 pdf(항공권)을 제공 기능 구현
+- Select the User's chosen flight, collect information from users -> Issue ticketId based on uuid, deduct remaining seats
+- Search reservation under "Reservation" tab
+- Convert from html into pdf using pdfkit, and save it on the S3 database
+- Issue pdf itinerary to passenger
 
 <br>
 
