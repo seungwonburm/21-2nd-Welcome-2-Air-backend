@@ -30,7 +30,7 @@ https://github.com/seungwonburm/21-2nd-Welcome-2-Air-backend/assets/82273617/470
 > - ETC : <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>&nbsp;<img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=Trello&logoColor=white"/>
 
 
-### 구현 기능
+### Implemented Features
 
 #### Users App
 - Create User Token using JWT
